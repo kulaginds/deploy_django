@@ -25,7 +25,9 @@ SECRET_KEY = '_)q!u7*(7ghx(00i%7!1=b5p=t-r_ytqw@lq6$7-n9r5#2-z-p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'djangotest.ruskyhost.ru',
+]
 
 
 # Application definition
